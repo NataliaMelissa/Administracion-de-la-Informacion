@@ -4,16 +4,24 @@ View(ozone.data)
 #Importante: Se utiliza stringsAsFactors = FALSE para que los valores NA no los cargue como string sino como objeto NA.
 
 #El método más común para identificar los outliers suele ser el boxplot
-# -La forma más rápida donde podemos ver directamente los valores atípicos.
+# - La forma más rápida donde podemos ver directamente los valores atípicos.
+# - Los pequeños círculos fuera del bigote inferior de la caja son los outliersc
 
 #Detección de valores atípicos;
-outliers.values <- boxplot(ozone.data$pressure_height)$out
+outliers.values <- boxplot(ozone.data$pressure_height)$out #Se le asigna al vector outlier.values los valores sin outliers del dataframe ozone.data de la columna pressure_height
 outliers.values
 
 summary(ozone.data$pressure_height)
+
+#Boxplot para ver los datos de la columna pressure_height del dataframe ozone.data
 boxplot(ozone.data$pressure_height, main = "Pressure Heigh",
         boxwex = 0.5)
 
+#El parámetro boxwex es útil para añadir un factor de escala que se aplica a la anchura de la caja
+# - Menor a 1 la caja será más estrecha
+# - Mayor a 1 será más amplia
+
+#Boxplot para ver los datos de la columna pressure_height por mes (con la columna month) del DF ozone.data
 boxplot(pressure_height ~ Month, data = ozone.data,
         main = "Pressure Height per Month")
 
