@@ -6,7 +6,7 @@ library(scales)
 
 #1. Transformación lineal de datos (reescalado lineal)
 #Cargar los datos en un dataframe estudiantes
-estudiantes <- read.csv("C:/Naty/Universidad/Ciclo 6/Administración de la información/Rstudio/Laboratorio 7/Data/data-conversion.csv")
+estudiantes <- read.csv("C:/Naty/Universidad/Ciclo 6/Administración de la información/Rstudio/Laboratorio 7/Data/data-conversion1.csv")
 View(estudiantes) #Ver dataframe
 
 #Se reescalan los valores de Income del dataframe estudiantes a valores entre 0 y 1  con la función rescale()
