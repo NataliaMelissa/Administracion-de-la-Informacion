@@ -19,6 +19,15 @@ Detro de esta carpeta, se pueden encontrar dos subcarpetas más: data y code. De
 
 - Integrantes del grupo: Natalia Maury Castañeda (yo), Oscar Flores, Carlos Iparraguirre Marujo
 
+## Trabajo Final (TF):
+Trabajo final del curso de administración de la información realizado de manera grupal. En este trabajo, se debía realizar el análisis exploratorio, limpieza de datos NA y valores atípicos, realizar un modelo y realizar visualizaciones en el dataset asignado en los lenguajes de programación de R o de python. En este caso, se realizó la carga de archivos (Carga_archivo.R), inspección del código (Inspeccion_archivo.R) y el Pre-procesamiento de los datos (Pre-Procesamiento de datos.R) en el lenguaje de programación de R; el modelado y las visualizaciones se realizaron en el lenguaje de python.
+
+Dentro de esta carpeta, se pueden encontrar dos subcarpetas más: Data y Code. Dentro de la carpeta Data se puede encontrar el dataset extraido e inspeccionado (dataset original), el dataset limpio en formato .csv y .R. En la carpeta Code, se pueden encontrar los archivos de carga e inspección del dataset, pre-procesamiento, modelado y visualizaciones de los integrantes. Fuera de las subcarpetas se encuentra el informe en .pdf, el archivo .readme, y un archivo .R del pre-procesamiento de datos NaN. 
+
+- Github donde se hizo el trabajo grupal: https://github.com/OscarFloresP/EB-2021-1-CC51.git 
+
+- Integrantes del grupo: Natalia Maury Castañeda (yo), Oscar Flores, Carlos Iparraguirre Marujo
+
 ## Contacto:
 Los perfiles de github de los integrantes con los que se hicieron los trabajos grupales son:
 - Oscar Flores: https://github.com/OscarFloresP 
